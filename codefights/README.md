@@ -1,1 +1,1 @@
-Code solutions are in python
+Code solutions are in python.
