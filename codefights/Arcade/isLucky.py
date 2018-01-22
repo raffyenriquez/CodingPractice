@@ -1,11 +1,7 @@
-def commonCharacterCount(s1, s2):
-    """returns number of common characters between two strings"""
-    common = 0
-    for char1 in s1:
-        for char2 in s2:
-            if char1 == char2:
-                s2 = s2.replace(char2, "", 1)
-                common += 1
-                break
-    return common
+def isLucky(n):
+    """determines if a given ticket number is lucky"""
+    #number is considered lucky when sum of first half is equal to the sum of the second half
+    l = len(str(n))
+    n = map(int, str(n))
+    return sum(n[:l/2]) == sum(n[l/2:l])
 
