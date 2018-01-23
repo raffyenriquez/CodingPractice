@@ -6,7 +6,7 @@ n = raw_input()
 array = raw_input()
 integers = sorted([int(i) for i in array.split(" ")])
 
-if len(integers) % 2 == 0:
+if int(n) % 2 == 0:
     q1_list = integers[:int(n)/2]
     q3_list = integers[int(n)/2:]
     
