@@ -1,6 +1,6 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
-"""Compute mean, median and mode"""
+"""compute mean, median and mode"""
 
 n = raw_input()
 array = raw_input()
